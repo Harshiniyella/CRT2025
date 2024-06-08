@@ -1,0 +1,16 @@
+With argument but no return value
+#include <stdio.h>
+
+void area(int l,int b)
+{
+    int r=l*b;
+    printf("%d",r);
+}
+int main()
+{
+    int l,b;
+    scanf("%d%d",&l,&b);
+    area(l,b);
+
+    return 0;
+}
