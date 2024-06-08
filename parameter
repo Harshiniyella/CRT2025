@@ -1,0 +1,15 @@
+Addition of two numbers
+#include <stdio.h>
+
+int main()
+{
+void add(int x,int y)
+{
+    int r=x+y;
+    printf("%d",r);
+}    
+
+int a,b;
+scanf("%d%d",&a,&b);
+add(a,b);
+}
